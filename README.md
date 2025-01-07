@@ -3,11 +3,10 @@
 ### Overview
 
 ### Project list
-#### calidata
-#### irisdata
+#### Calidata
+#### Irisdata
 #### csc360
-#### early 2024
-##### oaf
-##### fiheowf
-##### foewhf
-##### jfpowj
+#### Early 2024
+##### Simple Calculator
+##### Tic Tac Toe
+##### Sudoku Solver
