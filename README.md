@@ -18,7 +18,7 @@ Welcome to my portfolio! This repository contains a collection of my coding proj
 - **Early 2024**  
   Earlier coding projects that focus on problem-solving, game development, and GUI applications. These projects helped me build a solid foundation in Python and web development.
 
-### Description
+## Details
 
 ### CaliHousingNN
 
