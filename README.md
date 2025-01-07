@@ -1,10 +1,10 @@
 # Portfolio
 
-### Overview
+## Overview
 
 Welcome to my portfolio! This repository contains a collection of my coding projects, showcasing my skills in software development, problem-solving, game development, machine learning, and operating systems. Each project highlights different programming techniques and real-world applications, reflecting my growth as a developer.
 
-### Project List
+## Project List
 
 - **CaliHousingNN**  
   An intro machine learning project using the California Housing dataset to predict housing values with a simple neural network.
@@ -20,9 +20,9 @@ Welcome to my portfolio! This repository contains a collection of my coding proj
 
 ## Details
 
-### CaliHousingNN
+#### CaliHousingNN
 
-#### **California Housing Project: Simple Neural Network**
+##### **California Housing Project: Simple Neural Network**
 
 This project demonstrates the process of training a neural network to predict median house values in California based on various features such as average room size and population. Using **scikit-learn** for data handling and **PyTorch** for building the neural network, this project applies simple machine learning concepts to real-world data.
 
@@ -33,9 +33,9 @@ This project demonstrates the process of training a neural network to predict me
 
 ---
 
-### IrisNN
+#### IrisNN
 
-#### **Iris Petal Length Prediction: Simple Neural Network**
+##### **Iris Petal Length Prediction: Simple Neural Network**
 
 This project applies a simple neural network to predict the petal length of Iris-Setosa flowers from the Iris dataset. By using **scikit-learn** for data handling and **PyTorch** for building and training the model, this project showcases how to handle a real-world classification problem using deep learning.
 
@@ -46,9 +46,9 @@ This project applies a simple neural network to predict the petal length of Iris
 
 ---
 
-### CSC360
+#### CSC360
 
-#### **CSC360 Operating Systems Projects**
+##### **CSC360 Operating Systems Projects**
 
 This folder contains several projects completed as part of my CSC360 course in Operating Systems. These projects cover a variety of OS concepts, including file systems, multithreading, and process management.
 
@@ -65,9 +65,9 @@ This folder contains several projects completed as part of my CSC360 course in O
 
 ---
 
-### Early 2024
+#### Early 2024
 
-#### **Earlier Coding Projects: Simple Problem Solving and Interactive Apps**
+##### **Earlier Coding Projects: Simple Problem Solving and Interactive Apps**
 
 This folder contains a collection of beginner to intermediate coding projects, focusing on problem-solving, game development, and GUI applications. These projects allowed me to develop my coding skills and build a foundation for more advanced work.
 
@@ -83,6 +83,6 @@ This folder contains a collection of beginner to intermediate coding projects, f
 
 ---
 
-### Conclusion
+## Conclusion
 
 These projects reflect my progress in various areas of software development. Each project demonstrates a unique aspect of programming and problem-solving, and together they form a comprehensive portfolio that highlights my growth and ability to tackle real-world challenges. Thank you for exploring my work!
