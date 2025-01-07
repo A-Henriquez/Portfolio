@@ -10,8 +10,6 @@ Multithreading: Each train operates in its own thread, allowing concurrent loadi
 Dispatcher: A dispatcher thread manages the order of trains crossing based on priority and direction.
 Priority Handling: Trains are prioritized based on their defined properties, ensuring a fair crossing system.
 Output Logging: All events are logged to an output file for analysis.
-#### Estimated Execution Time
-The estimated execution time for the provided test input.txt is approximately 4.2 seconds.
 
 ### Code Structure
 Train Struct: Represents a train with attributes such as ID, loading time, crossing time, direction, and priority.
