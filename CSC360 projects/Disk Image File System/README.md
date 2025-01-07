@@ -1,5 +1,4 @@
-
-Programming A3
+### CSC360 A3
 
 Overview
 
