@@ -61,7 +61,7 @@ This folder contains several projects completed as part of my CSC360 course in O
 
 ### Early 2024
 
-This folder contains a collection of beginner to intermediate coding projects, focusing on problem-solving, game development, and GUI applications. These projects allowed me to develop my coding skills and build a foundation for more advanced work.
+This folder contains a collection of beginner coding projects, focusing on problem-solving, game development, and GUI applications. These projects allowed me to develop my coding skills and build a foundation for more advanced work.
 
 ##### Projects Overview:
 1. **Sudoku Solver**  
