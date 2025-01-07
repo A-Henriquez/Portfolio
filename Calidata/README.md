@@ -1,4 +1,4 @@
-# California Housing Project: Preprocessing and Neural Network Model
+# California Housing Project: Simple Neural Network
 
 This project demonstrates the process of preprocessing the California Housing dataset, training a simple neural network to predict housing values, and evaluating the model's performance. The project utilizes **scikit-learn** for data handling and **PyTorch** for building and training the neural network. It serves as a practice activity to try out creating a simple neural network for the first time.
 
