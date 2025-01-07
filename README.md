@@ -73,7 +73,6 @@ This folder contains a collection of beginner coding projects, focusing on probl
 3. **Simple Calculator**  
    A Python GUI calculator built with Tkinter for basic arithmetic operations.
 
----
 
 ## Conclusion
 
