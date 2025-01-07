@@ -1,4 +1,4 @@
-# Earlier Coding Projects: Simple Problem Solving and Interactive Apps
+# Earlier Coding Projects
 
 This folder contains several beginner to intermediate coding projects that demonstrate problem-solving skills, game development, and GUI applications. These projects are focused on improving coding knowledge through hands-on examples.
 
