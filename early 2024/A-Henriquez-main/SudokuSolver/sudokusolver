@@ -1,0 +1,95 @@
+# goal:
+#       practice backtracking and recursion
+# to note: note most optimal solution -> (what would be??)
+#
+
+
+
+# assume sudoku puzzle is a list of row, colum identifiers
+# cell numbers go from 0-8 for both row and column
+
+def find_next_empty_cell(puzzle):
+    # finds empty cell in puzzle (represented with a -1)
+    # return (row, column) tuple of empty cell, could be (None, None) if non are found
+
+    #iterate through rows and columns
+    for row in range(9):
+        for column in range(9):
+            if(puzzle[row][column] == -1):
+                return row, column
+        
+
+    #if code gets to here, Puzzle is full, no empty cells
+    return None, None
+
+
+def is_valid_guess(puzzle, guess, row, column):
+    #returns true if no conflicting numbers in other cells per sudoku rules
+    
+    #checking row
+    row_vals = puzzle(row)
+    if guess in row_vals:
+        return False
+    
+    #checking column
+    column_vals = []
+    for i in range(9):
+        column_vals.append(puzzle[i][column])
+  
+    if guess in column_vals:
+        return False
+    
+    # checking inner grid
+    # find the columns and rows neede
+    row_start = (row//3) * 3
+    column_start = (column//3)*3
+
+    for row in range(row_start, row_start+3):
+        for column in range(column_start, column_start + 3):
+            if puzzle[row][column] == guess:
+                return False
+            
+    # passed cases returning false so must be true
+    return True
+    
+
+    
+
+
+
+def solve_puzzle():
+    # using backtracking to solve sudoku puzzle
+    # makes changes to the puzzle
+    # return true if puzzle can be solved
+
+    # First guess (cell is chosen)
+    row, column = find_next_empty_cell(puzzle)
+
+    # puzzle complete if row all cells are filled and None, None, is returned
+    if(row is None):
+        return True
+    else:
+    # puzzle not full, continue solving
+        for guess in range(1, 10):
+            # validity check
+            if is_valid_guess(puzzle, guess, row, column):
+                puzzle[row][column] = guess
+            
+            # now recursively call function to fill rest of cells
+                if solve_puzzle(puzzle):
+                    return True
+                
+            #checking if not valid or if guess does not solve pussle
+            #backtrack
+            puzzle[row][column] = -1
+
+            #if no number tried works, puzzle is unsolvable
+
+            return False
+
+
+
+
+
+
+# idea from Kylie Ying https://www.youtube.com/watch?v=tvP_FZ-D9Ng&list=WL&index=21
