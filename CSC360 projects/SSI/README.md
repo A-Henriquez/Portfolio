@@ -1,4 +1,4 @@
-# CSC360 p1 assignment
+# CSC360 A1
 
 
 # Simple Shell Interpreter
