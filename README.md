@@ -20,9 +20,7 @@ Welcome to my portfolio! This repository contains a collection of my coding proj
 
 ## Details
 
-#### CaliHousingNN
-
-##### **California Housing Project: Simple Neural Network**
+### CaliHousingNN
 
 This project demonstrates the process of training a neural network to predict median house values in California based on various features such as average room size and population. Using **scikit-learn** for data handling and **PyTorch** for building the neural network, this project applies simple machine learning concepts to real-world data.
 
@@ -33,9 +31,7 @@ This project demonstrates the process of training a neural network to predict me
 
 ---
 
-#### IrisNN
-
-##### **Iris Petal Length Prediction: Simple Neural Network**
+### IrisNN
 
 This project applies a simple neural network to predict the petal length of Iris-Setosa flowers from the Iris dataset. By using **scikit-learn** for data handling and **PyTorch** for building and training the model, this project showcases how to handle a real-world classification problem using deep learning.
 
@@ -46,9 +42,7 @@ This project applies a simple neural network to predict the petal length of Iris
 
 ---
 
-#### CSC360
-
-##### **CSC360 Operating Systems Projects**
+### CSC360
 
 This folder contains several projects completed as part of my CSC360 course in Operating Systems. These projects cover a variety of OS concepts, including file systems, multithreading, and process management.
 
@@ -65,9 +59,7 @@ This folder contains several projects completed as part of my CSC360 course in O
 
 ---
 
-#### Early 2024
-
-##### **Earlier Coding Projects: Simple Problem Solving and Interactive Apps**
+### Early 2024
 
 This folder contains a collection of beginner to intermediate coding projects, focusing on problem-solving, game development, and GUI applications. These projects allowed me to develop my coding skills and build a foundation for more advanced work.
 
