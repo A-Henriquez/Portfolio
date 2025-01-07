@@ -1,7 +1,6 @@
 # CSC360 A1
 
-
-# Simple Shell Interpreter
+### Simple Shell Interpreter
 
 A simple command-line shell implemented in C, can do foreground and background execution of commands, changing directories, and listing background processes.
 
