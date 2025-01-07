@@ -3,9 +3,8 @@
 model that predicts petal length of iris using the iris data set from sklearn
 
 problem of: 3 classes of iris present: Iris-Setosa - Iris-Versicolour - Iris-Virginica
-Each class has a different average petal length thus 
-its a generalization of the 3 classes
- had to filter out for a single class
+Each class has a different average petal length thus its a generalization of the 3 classes
+ For later: want to filter out for a single class
 '''
 import pandas as pd
 import numpy as np
