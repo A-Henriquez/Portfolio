@@ -30,16 +30,6 @@ This folder contains three separate projects related to Operating Systems, demon
 
 ### Folder Contents
 
-- **CSC360_A3_Disk_Image_Manager**: Contains the source code for managing a custom disk image and interacting with its file system.
-- **CSC360_A2_Train_Crossing_Simulation**: Contains the source code for simulating a train crossing system using multithreading.
-- **CSC360_A1_Simple_Shell_Interpreter**: Contains the source code for a simple shell interpreter supporting basic commands and process management.
-
-### Usage
-
-- For **CSC360 A3 - Disk Image Manager**, you can compile and run the code to manage a disk image. It allows for listing directory contents, inspecting the disk structure, retrieving, and inserting files.
-  
-- For **CSC360 A2 - Train Crossing Simulation**, compile and run the simulation to observe how multiple trains operate concurrently with proper synchronization. You can configure the system with custom input data for train properties.
-
-- For **CSC360 A1 - Simple Shell Interpreter**, compile and run the shell to execute commands like `cd`, `bg`, `bglist`, and `exit`. The shell supports background process management.
-
-Each project demonstrates critical aspects of operating systems, such as process synchronization, file system manipulation, and shell interaction. Make sure to follow the specific README instructions inside each subfolder for compiling and running the respective projects.
+- **Disk_Image_Manager**: Contains the source code for managing a custom disk image and interacting with its file system.
+- **Train_Crossing_Simulation**: Contains the source code for simulating a train crossing system using multithreading.
+- **Simple_Shell_Interpreter**: Contains the source code for a simple shell interpreter supporting basic commands and process management.
