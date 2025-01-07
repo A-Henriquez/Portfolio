@@ -1,8 +1,10 @@
 # Portfolio
 
+
 ## Overview
 
 Welcome to my portfolio! This repository contains a collection of my coding projects, showcasing my skills in software development, problem-solving, game development, machine learning, and operating systems. Each project highlights different programming techniques and real-world applications, reflecting my growth as a developer.
+
 
 ## Project List
 
@@ -17,6 +19,8 @@ Welcome to my portfolio! This repository contains a collection of my coding proj
 
 - **Early 2024**  
   Earlier coding projects that focus on problem-solving, game development, and GUI applications. These projects helped me build a solid foundation in Python and web development.
+
+
 
 ## Details
 
@@ -72,6 +76,8 @@ This folder contains a collection of beginner coding projects, focusing on probl
 
 3. **Simple Calculator**  
    A Python GUI calculator built with Tkinter for basic arithmetic operations.
+
+
 
 
 ## Conclusion
