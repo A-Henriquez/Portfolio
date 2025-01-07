@@ -1,4 +1,4 @@
-# Iris Petal Length Prediction: Neural Network Model
+# Iris Petal Length Prediction: Simple Neural Network
 
 This project demonstrates the process of predicting the petal length of the Iris-Setosa class from the Iris dataset using a simple neural network. The project utilizes **scikit-learn** for data handling and **PyTorch** for building and training the neural network. This project continues the study of simple neural networks, applying them to a real-world dataset to predict continuous values.
 
