@@ -15,12 +15,6 @@
 #define SIZEPROMPT 256
 #define SIZEMAXIMUM 1024
 
-/*
-td:
-write the readme.txt
-go over specification and make sure it works 
-*/
-
 
 
 // Functions list
