@@ -1,38 +1,33 @@
-# CSC360 A3
-
 # Disk Image Manager
 
-### Overview
+## Project Overview
 
-This project is a tool for managing a disk image that implements a custom file system. The code allows users to inspect, list, retrieve, and insert files into the disk image. The program operates on a custom disk structure that includes superblock information, FAT (File Allocation Table), and directory entries. The disk image can be opened, analyzed, and manipulated with a variety of functions provided by the tool.
+This tool is designed to manage a disk image that implements a custom file system. The program allows users to inspect, list, retrieve, and insert files into the disk image. It operates on a custom disk structure, which includes components like the superblock, FAT (File Allocation Table), and directory entries. This project provides insights into file system management, focusing on disk structures and their manipulation. This project was developed for the CSC360 Operating Systems course. 
 
-### Key Features
+### Key Features:
+- **Inspect Disk Image**: View information about the disk structure, including the superblock, FAT, and root directory.
+- **List Directory Contents**: Display files and directories within the disk image.
+- **Retrieve Files**: Extract a file from the disk image and save it locally.
+- **Insert Files**: Add new files into the disk image, updating the FAT and directory entries.
 
-Inspect Disk Image: View basic information about the disk structure (superblock, FAT, and root directory).
-List Directory Contents: List files and directories in a given path within the disk image.
-Retrieve Files: Retrieve a file from the disk image and save it locally.
-Insert Files: Insert new files into the disk image and update the relevant FAT and directory entries.
+### Functions:
 
-### Functions
+- **diskinfo**: 
+  - Processes the disk image to retrieve superblock information and classifies FAT entries (free, reserved, or allocated blocks).
+  - Displays this information to the user, offering insights into the disk's structure and status.
+  
+- **display_disk_info**: 
+  - Displays detailed information about the superblock and the FAT, such as block size, block count, and the status of FAT blocks (free, reserved, or allocated).
 
-#### diskinfo
+- **disklist**:
+  - Lists the contents of a directory within the disk image. It takes a directory path as an argument, displaying metadata for each file or directory, such as file size, modification time, etc.
 
-This function processes the disk image, retrieves superblock information, and classifies FAT entries (free, reserved, or allocated blocks). It then displays this information to the user.
+- **diskget**:
+  - Retrieves a file from the disk image by locating it within the directory structure and then writing the file's contents to a local file.
 
-#### display_disk_info
+- **diskput**:
+  - Inserts a new file into the disk image by writing the file contents from the local machine, updating the FAT and directory entries as necessary.
 
-This function displays the superblock and FAT information, such as block size, block count, and the status of the FAT blocks (free, reserved, or allocated).
-
-#### disklist
-
-This function lists the contents of a directory in the disk image. The directory path is specified as a command-line argument. It handles both files and directories and displays their metadata (e.g., file size, modification time, etc.).
-
-
-#### diskget
-
-This function allows the user to retrieve a file from the disk image. It locates the file by traversing the directory structure and then writes the file contents to a local file.
-
-#### diskput
-
-This function inserts a new file into the disk image. It writes the contents of a local file into the image, updating the FAT and directory entries as necessary.
-
+### Technologies Used:
+- **C Programming Language**: The tool is implemented in C.
+- **Custom Disk Image Structure**: The disk image consists of a superblock, FAT, and directory entries, all of which are manipulated by the tool.
