@@ -1,13 +1,22 @@
-# CSC360 A1
+# Simple Shell Interpreter
 
-### Simple Shell Interpreter
+## Project Overview
 
-A simple command-line shell implemented in C, can do foreground and background execution of commands, changing directories, and listing background processes.
+The goal of the project is to implement a simple command-line shell interpreter in C, which supports running commands both in the foreground and in the background. This shell also supports basic directory traversal and process management, which are essential concepts in operating systems. This project was and assignment for the CSC 360 Operating Systems course.
 
-### Commands
+### Key Features:
+- **Foreground and Background Execution**: Run processes either in the foreground or in the background.
+- **Directory Navigation**: Change the current working directory and return to the home directory when no argument is provided to the `cd` command.
+- **Background Process Management**: List all running background processes with the `bglist` command.
+- **Exit**: Exit the shell using `q`, `quit`, or `exit`.
 
-- cd: Change the current working directory.
+### Commands:
+- **cd**: Change the current working directory.
     - If no argument is provided, it returns to the home directory.
-- bg: Run a command in the background.
-- bglist: List all currently running background processes.
-- q, quit or exit: Exit the shell
+- **bg**: Run a command in the background.
+- **bglist**: List all currently running background processes.
+- **q, quit, or exit**: Exit the shell.
+
+### Technologies Used:
+- **C Programming Language**: The shell is implemented in C.
+- **System Calls**: Key system calls such as `fork()`, `exec()`, `wait()`, `chdir()`, and `getcwd()` are utilized to manage processes and navigate the file system.
